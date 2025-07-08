@@ -1,0 +1,58 @@
+body{
+    background-color: #1f1e1e;
+}
+
+
+h1{
+   color: orange;
+   text-align: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    text-align: center;
+    background-color: rgb(247, 172, 11);
+    color: #fdf9f7;
+    border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.botoes-centro button {
+    width: 250px;      
+    padding: 15px 0;
+    font-size: 16px;
+  }
+
+.botoes-centro{
+    text-align: center;
+    
+}
+
+#titulo-lista{
+    text-align: center;
+    color: orange;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#lista-produtos{
+    text-align: center;
+    color: orange;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;       
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+#form-produto button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}

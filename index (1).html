@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Colheita Urbana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Colheita Urbana</h1>
+
+  <!-- Botões principais -->
+  <div class="botoes-centro">
+    <button id="btn-novo-produto">Novo Produto</button>
+    <button id="btn-mostrar-lista">Ver Produtos Adicionados</button>
+  </div>
+
+  <!-- Formulário de produto -->
+  <form id="form-produto" style="display: none;">
+    <p>Nome do produto:<br>
+      <input type="text" id="nome" required>
+    </p>
+
+    <p>Preço original:<br>
+      <input type="number" step="0.01" min="0" id="preco-original" required>
+    </p>
+
+    <p>Preço com desconto:<br>
+      <input type="number" step="0.01" min="0" id="preco-desconto" required>
+    </p>
+
+    <p>Data de validade:<br>
+      <input type="date" id="validade" required>
+    </p>
+
+    <p>Quantidade:<br>
+      <input type="number" step="1" min="0" id="quantidade" required>
+    </p>
+
+    <button type="submit">Adicionar Produto</button>
+  </form>
+
+  <!-- Lista de produtos -->
+  <h2 style="display: none;" id="titulo-lista">Produtos adicionados:</h2>
+  <div id="lista-produtos" style="display: none;">
+    <!-- Produtos aparecerão aqui -->
+  </div>
+
+  <script src="Colheita_Urbanajs.js"></script>
+</body>
+</html>
